@@ -1,0 +1,92 @@
+:root {
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --button-color: #2bb686;
+}
+
+header {
+  position: fixed;
+}
+
+.itschool-bg-primary {
+  background-color: var(--bg-primary);
+}
+
+nav .navbar-brand img {
+  height: 60px;
+  width: auto;
+}
+
+nav .navbar-nav .nav-item .nav-link,
+nav .navbar-nav .dropdown-item {
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+
+nav .navbar-nav .nav-item .nav-link:hover,
+nav .navbar-nav .dropdown-item:hover {
+  color: var(--text-secondary);
+  background-color: transparent;
+}
+
+nav .navbar-nav .dropdown-menu {
+  background-color: var(--bg-dark);
+}
+
+main .container p {
+  color: var(--text-white);
+}
+
+main .container span {
+  color: var(--text-secondary);
+}
+
+main p img {
+  height: 24px;
+  width: auto;
+}
+
+body main .container a {
+  font-size: 15px;
+  color: var(--text-white);
+  background-color: var(--button-color);
+}
+
+.bar {
+  height: 0.25rem;
+  background-color: var(--button-color);
+  border-radius: 10px;
+}
+
+.courses .place {
+  color: var(--text-dark);
+  background-color: var(--text-secondary);
+}
+
+section .who-we-are .my-paragraph {
+  color: var(--text-dark);
+}
+
+.who-we-are {
+  background-color: var(--bg-secondary);
+}
+
+.container-footer {
+  color: var(--text-light);
+  background-color: var(--bg-dark);
+}
+
+.partners img {
+  filter: grayscale(100%);
+}
+
+.partners img:hover {
+  filter: none;
+}

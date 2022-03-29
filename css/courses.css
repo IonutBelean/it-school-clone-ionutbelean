@@ -1,0 +1,38 @@
+:root {
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --button-color: #2bb686;
+}
+
+.welcome-container {
+  height: 50vh;
+
+  background-color: var(--bg-primary);
+}
+
+.welcome-container h1 {
+  color: var(--text-light);
+}
+
+.container-main h2 {
+  color: var(--text-primary);
+}
+
+.my-paragraph {
+  color: var(--text-dark) !important;
+}
+
+.container-main h5 {
+  color: var(--text-primary);
+}
+
+.container-main .card-text {
+  color: #666;
+}

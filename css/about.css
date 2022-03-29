@@ -1,0 +1,34 @@
+:root {
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --button-color: #2bb686;
+}
+
+header {
+  z-index: 1;
+}
+
+main .container-main {
+  height: 50vh;
+  background-color: var(--bg-primary);
+}
+
+main h1 {
+  color: var(--text-light);
+}
+
+.container-traineri .my-cards {
+  color: var(--text-dark);
+}
+
+.container-traineri h3 {
+  color: var(--text-secondary);
+  background-color: rgba(20, 30, 76, 0.9);
+}
