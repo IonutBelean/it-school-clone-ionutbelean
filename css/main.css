@@ -13,6 +13,7 @@
 
 header {
   position: fixed;
+  z-index: 1;
 }
 
 .itschool-bg-primary {
@@ -60,8 +61,9 @@ body main .container a {
 }
 
 .bar {
-  height: 0.25rem;
-  background-color: var(--button-color);
+  height: 4px !important;
+  color: var(--button-color);
+  opacity: 1;
   border-radius: 10px;
 }
 
@@ -89,4 +91,8 @@ section .who-we-are .my-paragraph {
 
 .partners img:hover {
   filter: none;
+}
+
+.itschool-bg-orange {
+  background-color: var(--text-secondary);
 }

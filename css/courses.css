@@ -36,3 +36,8 @@
 .container-main .card-text {
   color: #666;
 }
+
+.green-btn {
+  color: var(--text-white);
+  background-color: var(--button-color);
+}
