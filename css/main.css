@@ -96,3 +96,12 @@ section .who-we-are .my-paragraph {
 .itschool-bg-orange {
   background-color: var(--text-secondary);
 }
+
+main .container-doi p {
+  color: var(--bg-primary);
+}
+.container-form a {
+  color: black !important;
+  background-color: white !important;
+  opacity: 0.5;
+}

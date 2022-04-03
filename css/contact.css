@@ -28,3 +28,12 @@
 main p {
   color: var(--text-dark) !important;
 }
+
+.submit-btn {
+  color: var(--text-white);
+  background-color: var(--button-color);
+}
+
+.container-form .program {
+  opacity: 0.5;
+}
